@@ -85,6 +85,10 @@
       <a href="main" class="btn btn-primary btn-lg">Go To Main Page</a>
     </div>
 
+    {% if signup_message %}
+      <h5 style="margin-left:40px; margin-top:10px; ">{{signup_message}}</h5 >
+    {% endif %}
+
     <!-- trending recommendations -->
     <div class="container mt-5">
       <h2 class="text-center mb-4">Trending Products</h2>
